@@ -1,0 +1,20 @@
+hmid,wid,reflection_period,original_hm,cleaned_hm,modified,num_sentence,ground_truth_category,predicted_category
+27673,2053,24h,I went on a successful date with someone I felt sympathy and connection with.,I went on a successful date with someone I felt sympathy and connection with.,TRUE,1,,affection
+27674,2,24h,I was happy when my son got 90% marks in his examination ,I was happy when my son got 90% marks in his examination ,TRUE,1,,affection
+27675,1936,24h,I went to the gym this morning and did yoga.,I went to the gym this morning and did yoga.,TRUE,1,,exercise
+27676,206,24h,We had a serious talk with some friends of ours who have been flaky lately. They understood and we had a good evening hanging out.,We had a serious talk with some friends of ours who have been flaky lately. They understood and we had a good evening hanging out.,TRUE,2,bonding,bonding
+27677,6227,24h,"I went with grandchildren to butterfly display at Crohn Conservatory
+","I went with grandchildren to butterfly display at Crohn Conservatory
+",TRUE,1,,affection
+27678,45,24h,I meditated last night.,I meditated last night.,TRUE,1,leisure,leisure
+27679,195,24h,"I made a new recipe for peasant bread, and it came out spectacular!","I made a new recipe for peasant bread, and it came out spectacular!",TRUE,1,,achievement
+27680,740,24h,I got gift from my elder brother which was really surprising me,I got gift from my elder brother which was really surprising me,TRUE,1,,affection
+27681,3,24h,YESTERDAY MY MOMS BIRTHDAY SO I ENJOYED,YESTERDAY MY MOMS BIRTHDAY SO I ENJOYED,TRUE,1,,enjoy_the_moment
+27682,4833,24h,Watching cupcake wars with my three teen children,Watching cupcake wars with my three teen children,TRUE,1,,affection
+27683,7334,24h,I came in 3rd place in my Call of Duty video game.,I came in 3rd place in my Call of Duty video game.,TRUE,1,,leisure
+27684,78,24h,I completed my 5 miles run without break. It makes me feel strong.,I completed my 5 miles run without break. It makes me feel strong.,TRUE,2,,exercise
+27685,21,24h,went to movies with my friends it was fun ,went to movies with my friends it was fun ,TRUE,1,,bonding
+27686,8,24h,I was shorting Gold and made $200 from the trade.,I was shorting Gold and made $200 from the trade.,TRUE,1,,achievement
+27687,586,24h,"Hearing Songs It can be nearly impossible to go from angry to happy, so youare just looking for the thought that eases you out of your angry feeling and moves you in the direction of happiness. It may take a while, but as long as youare headed in a more positive direction youall be doing yourself a world of good.","Hearing Songs It can be nearly impossible to go from angry to happy, so you're just looking for the thought that eases you out of your angry feeling and moves you in the direction of happiness. It may take a while, but as long as you're headed in a more positive direction youall be doing yourself a world of good.",FALSE,2,,enjoy_the_moment
+27688,489,24h,My son performed very well for a test preparation.,My son performed very well for a test preparation.,TRUE,1,,affection
+27689,976,24h,I helped my neighbour to fix their car damages. ,I helped my neighbour to fix their car damages. ,TRUE,1,,bonding

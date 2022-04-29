@@ -1,0 +1,25 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "TestCrossS3Access",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::<AWS Account ID>:role/admin"
+            },
+            "Action": [
+                "s3:GetBucketLocation",
+                "s3:GetObject",
+                "s3:ListBucket",
+                "s3:ListBucketMultipartUploads",
+                "s3:ListMultipartUploadParts",
+                "s3:AbortMultipartUpload",
+                "s3:PutObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::annamm-globalcatalog",
+                "arn:aws:s3:::annamm-globalcatalog/cleanedhmsmall.csv"
+            ]
+        }
+    ]
+}

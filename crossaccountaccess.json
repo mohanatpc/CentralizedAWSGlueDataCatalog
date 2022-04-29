@@ -1,0 +1,11 @@
+{
+  "Version" : "2012-10-17",
+  "Statement" : [ {
+    "Effect" : "Allow",
+    "Principal" : {
+      "AWS" : "<REPLACE_WITH_CLOUDFORMATION_CrossAccountPrincipal_VALUE>"
+    },
+    "Action" : [ "glue:GetDatabase", "glue:GetDatabases", "glue:GetPartition", "glue:GetPartitions", "glue:GetTable", "glue:GetTables" ],
+    "Resource" : [ "arn:aws:glue:<region>:<AWS Account ID>:catalog", "arn:aws:glue:<region>:<AWS Account ID>:database/demodb", "arn:aws:glue:<region>:<AWS Account ID>:table/demodb/*" ]
+  } ]
+}

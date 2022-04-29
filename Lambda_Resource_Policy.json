@@ -1,0 +1,29 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "glue:BatchGetPartition",
+                "glue:GetDatabase",
+                "glue:GetDatabases",
+                "glue:GetPartition",
+                "glue:GetPartitions",
+                "glue:GetTable",
+                "glue:GetTables",
+                "glue:GetTableVersion",
+                "glue:GetTableVersions",
+                "s3:PutObject",
+                "s3:ListBucket",
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "arn:aws:glue:us-east-1:<Account A id>:catalog",
+                "arn:aws:glue:us-east-1:<Account A id>:database/demodb",
+                "arn:aws:glue:us-east-1:<Account A id>:table/demodb/annamm_globalcatalog",
+                "arn:aws:s3:::annamm-globalcatalog",
+                "arn:aws:s3:::annamm-globalcatalog/*"
+            ],
+            "Effect": "Allow"
+        }
+    ]
+}
